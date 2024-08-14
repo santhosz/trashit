@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lottie-react": "^2.4.0",
+    "node": "^20.16.0",
+    "react-bootstrap": "^2.10.4",
+    "react-lottie": "^1.2.4",
+    "react-script": "^2.0.5"
+  }
+}

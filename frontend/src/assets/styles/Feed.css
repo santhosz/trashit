@@ -1,0 +1,25 @@
+/* Feed.css */
+.feed-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.feed-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feed-table th, .feed-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.feed-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.feed-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

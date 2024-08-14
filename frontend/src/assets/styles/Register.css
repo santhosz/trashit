@@ -1,0 +1,97 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Light background for the entire page */
+  background: url('../../assets/images/green1.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-container {
+  display: flex;
+  background-color: white;
+  width: 1000px; /* Fixed width for the container */
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  align-items: center; /* Center the contents vertically */
+}
+
+.register-image {
+  flex: 1; /* Take up equal space as the form */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Background color to make it visible */
+}
+
+.register-image img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto;
+  border-radius: 8px 0 0 8px; /* Rounded corners on the left side */
+}
+
+.register-form {
+  flex: 1; /* Take up equal space as the image */
+  padding: 60px 40px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+.register-form h2 {
+  color: #3c69ca;
+  text-align: center;
+  margin-bottom: 30px; /* Adjust bottom margin for better spacing */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased bottom margin for better spacing */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px; /* Increased bottom margin for better spacing */
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px; /* Increased padding for input fields */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3c69ca;
+  color: white;
+  border: none;
+  padding: 12px 15px; /* Increased padding for the button */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px; /* Adjust margin-top for better spacing */
+}
+
+button:hover {
+  background-color: #3c69ca;
+}
+
+.register-links {
+  margin-top: 20px; /* Adjust margin-top for better spacing */
+  text-align: center;
+}
+
+.register-links a {
+  color: #3c69ca;
+  text-decoration: none;
+  margin: 0 15px; /* Adjust margin for links */
+  font-size: 14px;
+}
+
+.register-links a:hover {
+  text-decoration: underline;
+}

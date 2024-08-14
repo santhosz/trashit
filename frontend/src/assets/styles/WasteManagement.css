@@ -1,0 +1,27 @@
+.waste-management-container {
+    padding: 20px;
+  }
+  
+  .waste-data {
+    margin-top: 20px;
+  }
+  
+  .waste-request {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .waste-request h3 {
+    margin-top: 0;
+  }
+  
+  .waste-request p {
+    margin: 5px 0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    color: #007bff;
+  }

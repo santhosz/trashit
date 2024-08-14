@@ -1,0 +1,177 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.home {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-color: #eaeaea; /* Light grey background */
+  color: #333; /* Dark grey text color */
+}
+
+/* Hero Container Styles */
+
+
+/* Carousel Styles */
+.carousel-container {
+  width: 100%;
+  max-width: 800px; /* Limit the maximum width of the carousel */
+  height: 400px; /* Fixed height for the carousel */
+  overflow: hidden; /* Hide overflow to prevent zooming effect */
+  border-radius: 10px;
+  position: relative; /* For positioning controls */
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%; /* Ensure the image covers the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 10px;
+}
+
+/* Hero Container Text Styles */
+.hero-container h1 {
+  font-size: 2.5rem;
+  margin-top: 20px; /* Space above the heading */
+  color: #333; /* Dark text color for heading */
+}
+
+.hero-container p.slogan {
+  font-size: 1.75rem; /* Increased font size for slogan */
+  font-weight: bold;
+  margin: 10px 0; /* Vertical margin for spacing */
+  color: #666; /* Grey text color for slogan */
+}
+
+/* Description Styles */
+.home p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px auto; /* Center horizontally with bottom margin */
+  color: #555; /* Medium grey color for description text */
+  padding-left: 20px; /* Add left padding to align with the text */
+  text-align: left; /* Ensure text alignment is to the left */
+}
+
+/* Description Container Styles */
+.des {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Space between description and buttons */
+  margin-top: 50px;
+}
+
+.des p {
+  flex: 1;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  padding-right: 20px; /* Add space between text and buttons */
+}
+
+/* Home Buttons Styles */
+.home-buttons {
+  display: flex; /* Use Flexbox for horizontal alignment */
+  justify-content: flex-start; /* Align buttons to the start (left) */
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #000000; /* Green background for buttons */
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.home-button:hover {
+  background-color: #00acd7; /* Darker green on hover */
+}
+
+/* Find Job Button Styles */
+.find-job-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #000000; /* Blue background for Find Job button */
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.find-job-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+
+  .hero-container p.slogan {
+    font-size: 1.5rem; /* Adjusted size for smaller screens */
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .home h2.section-title {
+    font-size: 1.5rem; /* Adjusted size for smaller screens */
+  }
+
+  .home p.section-description {
+    font-size: 1rem; /* Adjusted size for smaller screens */
+  }
+
+  .home-button {
+    font-size: 1rem; /* Adjusted button size for smaller screens */
+    padding: 4px 16px;
+  }
+
+  .find-job-button {
+    font-size: 1rem; /* Adjusted button size for smaller screens */
+    padding: 4px 16px;
+  }
+
+  .hero-container video {
+    max-width: 100%; /* Ensure video doesn't overflow on smaller screens */
+  }
+}
+
+/* Add this to your Home.css */
+
+/* New styles for the home image */
+.hero-container img {
+  width: 80%; /* Adjust width as needed (e.g., 80%) */
+  max-width: 1500px; /* Limit the maximum width (optional) */
+  height: 500px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the container */
+  border-radius: 10px; /* Optional: add rounded corners */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.submitwaste-section {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ddd;
+}
+
+.submitwaste-section h2 {
+  margin-top: 0;
+}

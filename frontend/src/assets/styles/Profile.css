@@ -1,0 +1,257 @@
+:root {
+  --background: #f7f1f1;
+  --foreground: #3c69ca; /* Dark Green */
+  --muted: #f0f5f3; /* Darker Green */
+  --border: #f2ebf0;
+  --hover: #686565;
+  --primary: #3c69ca;
+  --primary-foreground: #090000;
+  --radius: 8px;
+  --font-family: Arial, sans-serif;
+}
+
+/* Apply font family to all elements */
+* {
+  font-family: var(--font-family);
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+  background-color: rgb(11, 11, 11);
+}
+
+/* Side Navigation */
+.profile-sidenav {
+  width: 250px;
+  background-color: var(--muted);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(17, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+}
+
+.profile-sidenav h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.profile-sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-sidenav li {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+
+.profile-sidenav li:hover {
+  background-color: var(--hover);
+  transition: background-color 0.3s ease;
+}
+
+/* Profile Content */
+.profile-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Profile Details, Orders, Wishlist, Notifications */
+.profile-details,
+.profile-orders,
+.profile-wishlist,
+.profile-notifications {
+  background-color: var(--muted);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 8px rgba(11, 11, 11, 0.1);
+}
+
+/* Address Card */
+.address-card {
+  background-color: var(--background);
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.edit-button,
+.add-address-button,
+.edit-button {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.add-address-button:hover,
+.edit-button:hover {
+  background-color: #9b255a;
+}
+:root {
+  --background: #f7f1f1;
+  --foreground: #3c69ca; /* Dark Green */
+  --muted: #f0f5f3; /* Darker Green */
+  --border: #f2ebf0;
+  --hover: #686565;
+  --primary: #9e2287;
+  --primary-foreground: #090000;
+  --radius: 8px;
+  --font-family: Arial, sans-serif;
+}
+
+/* Apply font family to all elements */
+* {
+  font-family: var(--font-family);
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  height: 100vh;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Side Navigation */
+.profile-sidenav {
+  width: 250px;
+  background-color: var(--muted);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(17, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-sidenav h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.profile-sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-sidenav li {
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+
+.profile-sidenav li:hover {
+  background-color: var(--hover);
+  transition: background-color 0.3s ease;
+}
+
+/* Profile Content */
+.profile-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Profile Details, Orders, Wishlist, Notifications */
+.profile-details,
+.profile-orders,
+.profile-wishlist,
+.profile-notifications {
+  background-color: var(--muted);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 8px rgba(11, 11, 11, 0.1);
+}
+
+/* Address Card */
+.address-card {
+  background-color: var(--background);
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.edit-button,
+.add-address-button {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.add-address-button:hover {
+  background-color: #3c69ca;
+}
+
+/* Profile Photo */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 20px;
+  border: 2px solid #3c69ca; /* Optional: Add a border to the image */
+}
+
+.profile-photo-upload {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.profile-photo-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.upload-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-photo-upload:hover .upload-overlay {
+  opacity: 1;
+}
+
